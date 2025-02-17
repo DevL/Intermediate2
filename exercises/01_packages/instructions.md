@@ -22,9 +22,10 @@ We will be creating a tiny package that only exposes some of its functionality, 
     * If you run `import mypackage` in the REPL you can access the first function as `mypackage.first`. Can you access the second one in the same manner? If not, why not?
     * If you run `from mypackage import *`, you should be able to call your exported functions without `mypackage.` in front of them.
 
-## Bonus round
-1. How can you access the second function even though it hasn't been exported?
-2. What happens if you add another function to `__init__.py`, restart the REPL, and run `from mypackage import *`?
+## Bonus round (optional)
+
+9. How can you access the second function even though it hasn't been exported?
+10. What happens if you add another function to `__init__.py`, restart the REPL, and run `from mypackage import *`?
     * What role does `__all__` play in this?
     * What happens if you remove `__all__`?
     * What happens if you also make the function "private" by prefixing it with an underscore?
