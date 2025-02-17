@@ -48,3 +48,7 @@ Doctests need not be done as a single line entered into the REPL with an expecte
     * Notice that you need to either assign the result of an executed line to a variable _or_ add the expected result below it.
         * If you decide to supress the result of the operations during the test setup, why is assigning the result to `_` like `>>> _ = calculator.add(1, 2)` a good idea?
     * Is this a suitable case for using a doctest rather than a normal test function?
+
+## Solution notes
+
+Tests have been provided. Run them by entering into the _solutions/03_docs_ directory in the terminal and run `pytest`.

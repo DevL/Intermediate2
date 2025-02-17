@@ -32,4 +32,5 @@ We will be creating a tiny package that only exposes some of its functionality, 
 
 
 ## Solution notes
+
 Tests have been provided. Run them by entering into the _solutions/01_packages_ directory in the terminal and run `pytest`.

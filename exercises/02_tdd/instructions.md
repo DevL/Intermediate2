@@ -88,9 +88,11 @@ Also, let's practice refactoring and package organisation a bit more.
     * Aim for this format: `<Recallculator, operations: 5>` 
 
 ## Solution notes
+
 Three sets of tests have been provided.
+
 * The first covers steps 1-11: _solutions/02_tdd_part_1_  
 * The second covers steps 12-16: _solutions/02_tdd_part_2_  
 * The third covers steps 17-19: _solutions/02_tdd_part_3_  
 
- Run them by entering into respective directory in the terminal and run `pytest`.
+Run them by entering into respective directory in the terminal and run `pytest`.
