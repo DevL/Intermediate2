@@ -1,5 +1,4 @@
 mypy
 pytest
 pytest-clarity
-requests
 typing-extensions
