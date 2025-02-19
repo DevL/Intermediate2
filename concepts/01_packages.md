@@ -1,7 +1,6 @@
 # Packages
 
-In a broad sense, a package is a collection of ideally consistent and coherent code and functionality.
-In Python, any file ending with `.py` is a module. A package typically consists of one or more Python modules.
+In a broad sense, a package is a collection of ideally consistent and coherent code and functionality. In Python, any file ending with `.py` is a module. A package typically consists of one or more Python modules.
 
 The Python distribution comes with a number of packages as part of the language and its standard library comes with even more.
 Additional packages can be installed from and uplodaded to a third-party source, such as PyPI (the Python Package Index). 
