@@ -12,15 +12,15 @@ def test_add_is_documented():
 
 
 def test_subtract_is_documented():
-    assert Recallculator.add.__doc__
+    assert Recallculator.subtract.__doc__
 
 
 def test_multiply_is_documented():
-    assert Recallculator.add.__doc__
+    assert Recallculator.multiply.__doc__
 
 
 def test_divide_is_documented():
-    assert Recallculator.add.__doc__
+    assert Recallculator.divide.__doc__
 
 
 def test_operations_is_documented():
