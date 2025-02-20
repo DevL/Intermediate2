@@ -25,7 +25,7 @@ class Recallculator:
         >>> callculator.operations
         ['3 - 4', '1 + 2']
         """
-        return self._operations
+        return list(reversed(self._operations))
 
     def add(self, a: Number, b: Number) -> Number:
         """
@@ -73,7 +73,7 @@ class Recallculator:
         return self
 
     def _register_operation(self, operand, a, b):
-        self._operations = [f"{a} {operand} {b}"] + self._operations
+        self._operations.append(f"{a} {operand} {b}")
 
     def __repr__(self):
         return f"<{self.__class__.__name__}, operations: {len(self._operations)}>"
