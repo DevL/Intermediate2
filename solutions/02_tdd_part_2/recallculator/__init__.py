@@ -19,4 +19,4 @@ class Recallculator:
         return a / b
 
     def _register_operation(self, operand, a, b):
-        self.operations = [f"{a} {operand} {b}"] + self.operations
+        self.operations.insert(0, f"{a} {operand} {b}")
