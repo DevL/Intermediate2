@@ -16,8 +16,9 @@ We will be creating a tiny package that only exposes some of its functionality, 
     * Have the second function return some value, either calculated or fixed.
 6. In the `__init__.py` module, import the first function, but not the second function.
     * See [`import` from submodules](https://docs.python.org/3.9/reference/import.html#submodules).
+    * Notice the leading dot in front of the module name. What is its meaning?
 7. Signal that the imported function as well as the one you created in step 3 are the public API of this package.
-    * You do this by declaring `__all__`. It should be a list of strings listing the public functions and variables. For in-depth information, see [`import`](https://docs.python.org/3/reference/simple_stmts.html#the-import-statement).
+    * You do this by declaring `__all__` in `__init__.py`. It should be a list of strings listing the public functions and variables. For in-depth information, see [`import`](https://docs.python.org/3/reference/simple_stmts.html#the-import-statement).
 8. To test things in a Python REPL, run `python` from the `01_packages` directory in the terminal.
     * If you run `import mypackage` in the REPL you can access the first function as `mypackage.first`. Can you access the second one in the same manner? If not, why not?
     * If you run `from mypackage import *`, you should be able to call your exported functions without `mypackage.` in front of them.
