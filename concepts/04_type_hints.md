@@ -20,7 +20,7 @@ def greet(name: str) -> str:
 ### A compound example
 
 ```python
-from typing import NewType
+from typing import Union
 
 class Username(str):
     ...
